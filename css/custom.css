@@ -1,210 +1,55 @@
-@font-face {
-font-family: Fontin;
-src: url("fonts/Fontin_Sans_R_45b.otf") format("opentype");
-}
-@font-face {
-font-family: Fontin;
-font-weight: bold;
-src: url("fonts/Fontin_Sans_B_45b.otf") format("opentype");
-}
-
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300
 }
 
-a { 
-    color:rgb(51, 122, 183);
- }
-
- a:hover .icon {
-
- }
-
-a:hover { 
-     color:rgb(51, 51, 51);
- }
-#header-box {
-
-	border-bottom: 3px solid rgb(51, 51, 51);
-}
-#header-title {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-	color: rgb(51, 51, 51);
-  font-size: 36px; 
-  font-weight: 500;
-  line-height: 36px;
+.lead{
+	font-size: 18px;
+	margin-bottom: 0px;
 }
 
-.lead {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-  font-size: 21px;
-  font-weight: 300;
-  line-height: 28px;
+.page-header {
+	margin-top: 11px;
+	margin-bottom: 7px;
+	margin-left: 40px;
+	border-bottom: none;
 }
 
-.pageheader {
-  margin-top: 15px;
-  padding-left: 0px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid rgb(220, 220, 220)
-}
-
-.title {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
-  text-align: center;
-}
-
-.lead {
-  margin-bottom: 5px;
-}
-
-#badge {
-}
-#badge-pic-box {
-	padding: 10px 10px 10px 10px ;
-	text-align: center;
-}
-
-#badge-text-box {
-	padding: 10px 10px 10px 10px ;
-	color: rgb(51, 51, 51);
-	font-size: 15px;
-        font-weight:bold;
-}
-
-.section {
-	padding: 5px 5px 0px 5px;
-}
-.section-title {
-	padding-left: 0px;
-	margin-top: 10px; 
-	color: rgb(51, 51, 51);
-	font-size: 20px;
-	font-weight: bold;	
-	border-bottom: 1px solid rgb(51, 51, 51);
-}
-
-.section-item {
-	padding-left: 0px;
-	margin-top:12px;
-	color: rgb(51, 51, 51);
-	font-size: 17px;
-	font-weight: bold;	
-}
-
-.topic {
-	font-size: 16px;
-	font-weight: bold;
-	padding: 0px 0px 0px 0px;
-	margin : 0px 0px 0px 0px;
-}
-
-.guide {
-	font-size: 16px;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	font-weight: lighter;		
-}
-
-.points { 
-        font-size: 14px;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 15px;
-	font-weight: lighter;
-        list-style-type: square;
-          text-align:justify;
- }
-.type {
-	font-size: 14px;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	font-weight: bold;		
-}
-
-.footer {
-	height: 50px;
-}
-
-.section-list {
-	list-style-type: none;
-	padding-left: 0px;
-}
-
-.interests-list { 
-                  padding-left:20px; 
-                  padding-top:50px; 
-                  list-style-type:square;
- }
-#navbar-div {
-          padding:0px 0px 0px 0px;
-          height:50px;
-          margin-bottom: 10px;
-}
-
-.navbar { 
-          width:100%;
-          list-style-type:none;
-          padding-left:0px;
-          background: white;
-          height:25px;
-          border-radius: 0px;
- }
 .navitem {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  
-        display:inline-block;
+       display:inline-block;
        text-align:center;
-       padding:0px 0px 0px 0px;
-       margin: 0px 0px 0px 0px;
- }
-
-.navitem a { 
-       color:rgb(61, 28,0);
-       padding-top:2px;
-       font-size:14px;
-       font-weight:300;
-       text-decoration: none;
+       margin-right: 30px;
+       font-size: 14px;
 }
 
-.navitem a:hover { 
-       font-weight: 500;
- }
-
-.section { 
-           padding: 0px 0px 0px 0px;
- }
-#bio-text { 
-       padding: 5px 0px 0px 0px;
-       font-size:15px;
-       color: solid rgb(61, 28,0);
-            text-align:justify;
+.navitem a {
+	color: rgb(51, 51, 51);
+	font-weight: 800;
 }
-.active a { 
-    font-weight: 500;
- }
 
-#contact { 
-           padding-top: 5px;
-           font-size:15px;
- }
+.navbar a:hover {
+	color:#0071bc;
+	font-weight: 500;
+}
 
-#contact table tr td a { 
-                         color:rgb(51, 51, 51);
- }
+.active a{
+		color:#0071bc;
+}
+.navbar {
+	padding-left: 40px;
+}
 
-#footer { 
-          margin-top:10px;
-          border-bottom: 10px solid rgb(51, 51, 51);
- }
+.section-title {
+	font-size: 18px;
+	font-weight: 800;
+}
 
-.courses { 
-           padding-left:15px;
- }
+.subsection-title {
+	font-size:16px;
+	font-weight: 800;
+}
 
-.last { 
-        margin-bottom:40px;
- }
-
- .col-md-2-4 {
-  width: 19.19%
+.head-content{
+	font-size:16px;
+	padding-bottom: 10px;
 }
