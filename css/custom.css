@@ -60,3 +60,7 @@ body {
 	font-size:16px;
 	padding-bottom: 10px;
 }
+
+b, strong {
+	font-weight: 800;
+}
