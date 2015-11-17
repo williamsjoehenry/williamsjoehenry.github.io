@@ -38,6 +38,23 @@ body {
 	padding-left: 40px;
 }
 
+.footerbar {
+	padding-left: 0px;
+}
+
+.footeritem {
+	 display:inline-block;
+	 text-align:center;
+	 margin-right: 30px;
+	 font-size: 14px;
+	 font-weight: 300;
+}
+
+.footeritem a {
+	color: rgb(51, 51, 51);
+}
+
+
 .section-title {
 	font-size: 25px;
 	font-weight: 800;
