@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+
+      {% include header.html %}
+
+      <div class="content">
+        <div class="left">
+          {{ content }}
+        </div>
+        <div class="right">
+          {% include profileconnect.html %}
+        </div>
+      </div>
+
+      <div class="line"></div>
+      {% include footer.html %}
+
+    </div>
+  </body>
+
+</html>
