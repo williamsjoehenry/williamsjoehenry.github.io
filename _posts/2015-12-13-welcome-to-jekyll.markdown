@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2015-12-13 23:37:05 +0530
-permalink: /posts/welcome
+permalink: /posts/welcome.html
 categories: jekyll update
 comments: true
 ---
