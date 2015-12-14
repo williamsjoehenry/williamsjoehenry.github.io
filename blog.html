@@ -1,6 +1,14 @@
 ---
 layout: default
-permalink: /blog.html
+permalink: /blog
 ---
 
 <p class="page-title">Blog</p>
+<section>
+<b>Recent Posts</b>
+<ul>
+{% for post in site.posts %}
+<li><a href={{ post.url }}> {{ post.title }} ({{ post.date | date: "%d %b %Y"}})</a></li>
+{% endfor %}
+</ul>
+</section>

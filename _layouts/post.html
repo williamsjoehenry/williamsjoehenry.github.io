@@ -1,15 +1,34 @@
----
-layout: default
----
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<!DOCTYPE html>
+<html>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+  {% include head.html %}
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+  <body>
+    <div class="container">
 
-</article>
+      {% include header.html %}
+
+      <div class="content">
+        <div class="left">
+          <div class="post-header"> 
+            <p class="post-title"> {{ page.title }} </p>
+            <p class="post-subtitle">{{ page.date | date: "%d %b %Y"}}</p>
+          </div>
+          <div class="post-content">
+            {{ content }}
+          </div>
+          <div class="post-comments">
+            {% include disqus.html %}
+          </div>
+        <div class="right">
+          
+        </div>
+      </div>
+
+      <div class="line"></div>
+      {% include footer.html %}
+
+    </div>
+  </body>
+
+</html>
