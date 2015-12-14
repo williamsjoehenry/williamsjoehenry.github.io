@@ -4,6 +4,8 @@
 body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	width:1280px;
+	margin:auto;
 }
 
 .header {
@@ -73,7 +75,7 @@ body {
 	width: 67%;
 	margin: 0% 1% 0% 3%;
 	display: inline-block;
-	min-height: 480px;
+	min-height: 80vh;
 }
 
 .right {
@@ -82,7 +84,7 @@ body {
 	display: inline;
 	float: right;
 	text-align: center;
-	min-height: 480px;
+	min-height: 80vh;
 }
 .post-title {
 	font-size: 22px;
