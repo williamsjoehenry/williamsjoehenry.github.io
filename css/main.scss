@@ -13,27 +13,77 @@ body {
 
 .footer {
 	width: 100%;
-	padding: 0% 5% 0% 5%;
+	padding: 0% 3% 0% 3%;
 	margin: 0px 0px 30px 0px;
 }
 
+
+.right-section-title {
+	font-size:15px;
+	font-weight:800;	
+	margin-botton:5px;
+	margin-left:0px;
+	text-align:left;
+}
+
+.right-secton-content {
+	margin-left:0px;
+}
+
+.right-section {
+	margin-top:10px;
+	margin-left:10px;
+	margin-botton:10px;
+}
+
+.right-section ul {
+	margin: 5px 0px 5px 0px;
+	padding: 3px 0px 8px 0px;
+	text-align:left;
+	list-style-position: inside;
+}
+
+.right-section li {
+	padding: 3px 6px 3px 6px;
+	text-align:left;
+}
+
+
+.right-section a {
+	text-align:left;
+}
+
+.category-cloud {
+	border-radius: 10px;
+	margin: 0px 0px 10px 0px;
+}
+
 .container {
-	width: 90%;
-	padding: 0% 5% 0% 5%;
+	width: 94%;
+	padding: 0% 3% 0% 3%;
 }
 
 .content {
 	width: 100%;
 	margin-top: 20px;
 	padding: 0%;
-	min-height: 850px;
-}
-.left {
-	width: 62%;
-	margin: 0% 2% 0% 5%;
-	display: inline-block;
 }
 
+.left {
+	width: 67%;
+	margin: 0% 1% 0% 3%;
+	display: inline-block;
+	min-height: 480px;
+}
+
+.right {
+	width: 23%;
+	margin: 0% 3% 0% 1%;
+	display: inline;
+	float: right;
+	text-align: center;
+	min-height: 480px;
+}
 .post-title {
 	font-size: 22px;
 	font-weight: 600;
@@ -44,6 +94,11 @@ body {
 	font-size:14px;
 	font-weight:200;	
 	margin: 0px 0px 0px 0px;
+}
+
+.category-in-cloud {
+	margin: 2px 5px 2px 5px; 
+	display:inline;
 }
 
 .post-header {
@@ -61,13 +116,8 @@ body {
 .icon {
 	margin-right: 5px;
 }
-.right {
-	width: 23%;
-	margin: 0% 5% 0% 2%;
-	display: inline;
-	float: right;
-	text-align: center;
-}
+
+
 
 .legend {
 	padding: 5% 5% 5% 5%;
@@ -86,7 +136,7 @@ body {
 
 .title {
 	font-size: 16px;
-	padding: 0% 5% 0% 5%
+	padding: 0% 3% 0% 3%
 }
 
 .title p {
@@ -147,7 +197,7 @@ a:hover {
 	text-decoration: underline;
 }
 .navbar {
-	padding: 0% 5% 0% 5%
+	padding: 0% 3% 0% 3%
 }
 
 .navbar ul {
@@ -167,3 +217,6 @@ body {
 	padding: 0px;
 }
 
+.twitter-timeline {
+	width:100%;
+}

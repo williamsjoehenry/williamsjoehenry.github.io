@@ -1,34 +1,13 @@
-<!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body>
-    <div class="container">
-
-      {% include header.html %}
-
-      <div class="content">
-        <div class="left">
-          <div class="post-header"> 
-            <p class="post-title"> {{ page.title }} </p>
-            <p class="post-subtitle">{{ page.date | date: "%d %b %Y"}}</p>
-          </div>
-          <div class="post-content">
-            {{ content }}
-          </div>
-          <div class="post-comments">
-            {% include disqus.html %}
-          </div>
-        <div class="right">
-          
-        </div>
-      </div>
-
-      <div class="line"></div>
-      {% include footer.html %}
-
-    </div>
-  </body>
-
-</html>
+---
+layout: blog-layout
+---
+<div class="post-header"> 
+  <p class="post-title"> {{ page.title }} </p>
+  <p class="post-subtitle">{{ page.date | date: "%d %b %Y"}}</p>
+</div>
+<div class="post-content">
+  {{ content }}
+</div>
+<div class="post-comments">
+  {% include disqus.html %}
+</div>
