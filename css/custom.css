@@ -151,6 +151,13 @@ h5 {
 	margin-bottom: 5px;
 }
 
+.project > .links > a {
+	margin-right: 10px;
+}
+
+.project > .links > b {
+	margin-right: 10px;
+}
 #footer {
 	text-align:left; 
 	margin-bottom: 20px;
