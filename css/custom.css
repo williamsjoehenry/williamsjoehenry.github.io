@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/k3k702ZOKiLJc3WVjuplzJ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/EInbV5DfGHOiMmvb1Xr-hp1r3JsPcQLi8jytr04NNhU.woff) format('woff');
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+body {
+	font-family: 'Open Sans'; 
+	font-size: 13px;
+}
+
+hr {
+	color: #000;
+}
+
+.row {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#name {
+	font-size: 32px;
+	padding: 0px 0px 5px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#name > p {
+	margin: 0px;
+}
+.nav > li > a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.header-line {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ccc;
+}
+
+.nav > li {
+	float: left;
+}
+
+.nav > li.active > a {
+	color: rgb(0, 113, 188);
+}
+
+#sections {
+
+}
+
+
+.nav > li > a:focus, .nav > li > a:hover {
+	color: rgb(0, 113, 188);
+	background-color: white;
+	text-decoration: underline;
+} 
+
+#header {
+	margin-top: 20px;
+}
+
+#home{ 
+	margin-top: 40px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgb(242, 242, 242); 
+}
+
+#photo {
+}
+
+#main-text{
+	font-size: 14px;
+}
+
+#address {
+	font-size: 14px;
+}
+
+#navbar {
+	padding-top:5px;
+	padding-right:0px;
+}
+
+.section-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+h5 {
+	margin: 5px;
+}
+
+.project {
+	padding-top: 10px;
+}
+
+.section {
+	margin-top: 30px;
+}
+.section > .title {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.section > .subtitle {
+	font-size: 18px;
+	font-weight: bold;	
+}
+
+.project > .title {
+	font-size: 16px;
+	margin: 0px;
+	font-weight: 600;
+}
+
+.project > .subtitle {
+	font-style: italic;
+	margin: 0px 0px 5px 0px;
+}
+
+.project > .abstract {
+	margin-top: 0px;
+}
+
+#footer {
+	text-align:left; 
+	margin-bottom: 20px;
+}
+
+#twitter {
+	margin-top: 20px;
+}

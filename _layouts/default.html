@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
+
   {% include head.html %}
 
   <body>
+
     <div class="container">
-
+      
       {% include header.html %}
+      
+      <hr class="header-line">
 
-      <div class="content">
-        <div class="left" style="min-height:850px">
-          {{ content }}
-        </div>
-        <div class="right">
-          {% include profileconnect.html %}
-        </div>
-      </div>
+      {{ content }}
 
-      <div class="line"></div>
-      {% include footer.html %}
+      <br>
+      <br>
+      <br>
+      <hr class="header-line">
 
-    </div>
+      {% include footer.html %}  
+  </div>  
   </body>
+
 
 </html>
