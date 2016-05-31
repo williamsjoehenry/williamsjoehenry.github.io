@@ -135,7 +135,7 @@ hr {
 }
 
 #name {
-	font-size: 30px;
+	font-size: large;
 	padding: 0px 0px 5px 0px;
 	margin: 0px 0px 0px 0px;
 }
@@ -192,11 +192,11 @@ a {
 }
 
 #main-text{
-	font-size: 16px;
+	font-size: medium;
 }
 
 #address {
-	font-size: 14px;
+	font-size: medium;
 }
 
 #navbar {
@@ -205,7 +205,7 @@ a {
 }
 
 .section-title {
-	font-size: 20px;
+	font-size: large;
 	font-weight: 600;
 }
 
@@ -221,18 +221,18 @@ h5 {
 	margin-top: 30px;
 }
 .section > .title {
-	font-size: 24px;
+	font-size: larger;
 	font-weight: bold;
 	margin: 0px;
 }
 
 .section > .subtitle {
-	font-size: 18px;
+	font-size: large;
 	font-weight: bold;	
 }
 
 .project > .title {
-	font-size: 16px;
+	font-size: medium;
 	margin: 0px;
 	font-weight: 600;
 }
