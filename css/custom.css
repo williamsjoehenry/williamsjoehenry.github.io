@@ -168,6 +168,9 @@ hr {
 
 }
 
+a {
+	color: rgb(0, 0, 170);
+}
 
 .nav > li > a:focus, .nav > li > a:hover {
 	color: rgb(0, 113, 188);
