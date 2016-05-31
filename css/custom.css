@@ -121,7 +121,7 @@
 }
 
 body {
-	font-family: 'Lora' serif;
+	font-family: 'Lora', serif;
 	font-size: medium;
 }
 
@@ -171,9 +171,9 @@ hr {
   font-weight: bold;
   color: rgb(170, 170, 170);
 }
-
 .nav > li > a:focus, .nav > li > a:hover {
 	color: rgb(0, 0, 0);
+	background-color: white;
 }
 
 #header {
