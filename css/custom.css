@@ -190,20 +190,16 @@ hr {
 }
 
 #main-text{
-	font-size: small;
+	font-size: medium;
 }
 
 #address {
-	font-size: small;
+	font-size: medium;
 }
 
 #navbar {
 	padding-top:5px;
 	padding-right:0px;
-}
-
-.section-title {
-	font-size: large;
 }
 
 h5 {
