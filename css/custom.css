@@ -122,7 +122,7 @@
 
 body {
 	font-family: 'Lora', serif;
-	font-size: medium;
+	font-size: small;
 }
 
 hr {
@@ -149,7 +149,7 @@ hr {
 	text-decoration: none;
 	color: black;
 	cursor: pointer;
-	font-size: medium;
+	font-size: small;
 }
 
 .header-line {
@@ -167,7 +167,7 @@ hr {
 }
 
 .nav > li > a {
-  font-size: medium;
+  font-size: small;
   font-weight: bold;
   color: rgb(170, 170, 170);
 }
@@ -190,11 +190,11 @@ hr {
 }
 
 #main-text{
-	font-size: medium;
+	font-size: small;
 }
 
 #address {
-	font-size: medium;
+	font-size: small;
 }
 
 #navbar {
