@@ -145,12 +145,6 @@ hr {
   color: rgb(170,0,0);
 	margin: 0px;
 }
-.nav > li > a{
-	text-decoration: none;
-	color: black;
-	cursor: pointer;
-	font-size: medium;
-}
 
 .header-line {
 	margin-top: 0px;
@@ -167,7 +161,7 @@ hr {
 }
 
 .nav > li > a {
-  font-size: small;
+  font-size: medium;
   font-weight: bold;
   color: rgb(170, 170, 170);
 }
