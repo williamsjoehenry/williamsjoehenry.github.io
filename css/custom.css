@@ -140,7 +140,7 @@ hr {
 }
 
 #name > p {
-  font-size: medium;
+  font-size: x-large;
   font-weight: bold;
   color: rgb(170,0,0);
 	margin: 0px;
@@ -149,7 +149,7 @@ hr {
 	text-decoration: none;
 	color: black;
 	cursor: pointer;
-	font-size: small;
+	font-size: medium;
 }
 
 .header-line {
