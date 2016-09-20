@@ -140,7 +140,7 @@ hr {
 }
 
 #name > p {
-  font-size: XX-large;
+  font-size: medium;
   font-weight: bold;
   color: rgb(170,0,0);
 	margin: 0px;
