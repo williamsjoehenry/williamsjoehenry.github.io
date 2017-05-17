@@ -124,10 +124,21 @@ $(document).ready(function () {
 </div>
 
 
-<p>After taking a convex optimization class this past semester I implemented a few basic algorithms for unconstrained optimization in Python: <a href="https://github.com/idc9/optimization_algos"><strong>https://github.com/idc9/optimization_algos</strong></a>.</p>
-<p>The purpose of this repo is for me to learn and to have bare bones implementations of these algorithms sitting around. I tried to make the code modular and simple as possible so that you (or a future me) can modify it for other purposes (e.g. add bells and whistles, implement other algorithms, etc). Right now the repo focuses on first order methods (GD, SGD, accelerated GD, etc) for <a href="http://www.cs.cornell.edu/courses/cs4780/2015fa/web/lecturenotes/lecturenote10.html">empirical risk minimization</a> problems. While off the shelf solvers such as <a href="http://scikit-learn.org/stable/">sklean</a> or <a href="http://cvxopt.org/">cvxopt</a> are preferable for many applications there are times when you want full control over the solver.</p>
+<p>After taking a convex optimization class this past semester I implemented a few basic algorithms for unconstrained optimization in Python: <a href="https://github.com/idc9/optimization_algos"><strong>https://github.com/idc9/optimization_algos</strong></a> e.g. <a href="https://github.com/idc9/optimization_algos/blob/master/opt_algos/accelerated_gradient_descent.py">Nesterov’s accelerated gradient descent</a>.</p>
+<p>The purpose of this repo is for me to learn and to have bare bones implementations of these algorithms sitting around. I tried to make the code modular and simple as possible so that you (or a future me) can modify it for other purposes (e.g. add bells and whistles, implement other algorithms, etc). While off the shelf solvers such as <a href="http://scikit-learn.org/stable/">sklean</a> or <a href="http://cvxopt.org/">cvxopt</a> are preferable for many applications there are times when you want full control over the solver.</p>
+<p>Right now the repo focuses on first order methods (GD, SGD, accelerated GD, etc) for <a href="http://www.cs.cornell.edu/courses/cs4780/2015fa/web/lecturenotes/lecturenote10.html">empirical risk minimization</a> problems. For some high level references see:</p>
+<ul>
+<li><a href="http://sebastianruder.com/optimizing-gradient-descent/index.html">An overview of gradient descent optimization algorithms</a> by Sebastian Ruder.</li>
+<li><a href="https://arxiv.org/pdf/1405.4980.pdf">Convex Optimization: Algorithms and Complexity</a> by Sebastien Bubeck</li>
+<li><a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization</a> by Boyd and Vandenberghe</li>
+</ul>
+<p>A few more interesting references:</p>
+<ul>
+<li><a href="https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/">Nesterov’s Accelerated Gradient Descent for Smooth and Strongly Convex Optimization</a></li>
+<li><a href="http://distill.pub/2017/momentum/">Why Momentum Really Works</a></li>
+</ul>
 <hr />
-<p>For other blog posts <a href="https://idc9.github.io/blog.html">see here</a>. This post was last updated on 2017-05-17 16:45:07 Eastern Time.</p>
+<p><em>For other blog posts <a href="https://idc9.github.io/blog.html">see here</a>. This post was last updated on 2017-05-17 17:09:04 Eastern Time.</em></p>
 
 
 
