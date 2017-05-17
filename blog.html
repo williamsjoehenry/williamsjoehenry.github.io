@@ -20,14 +20,30 @@ title: Iain Carmichael | Blog
 
 <ul class="posts">
   {% for post in site.posts limit:15 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></li>
+  {% endfor %}
+</ul>
+
+
+
+<ul class="posts">
+  {% for post in site.posts limit:15 %}
     {% if page.link %}
-		<h1 class="post-title"><a href="{{ page.link }}">{{ page.title }} <span class="link-arrow">&rarr;</span></a></h1>
+		<h1 class="post-title"><a href="{{ post.link }}">{{ post.title }} <span class="link-arrow">&rarr;</span></a></h1>
 	{% else %}
-		<h1 class="post-title">{{ page.title }}</h1>
+		<h1 class="post-title">{{ post.title }}</h1>
 	{% endif %}
     
   {% endfor %}
 </ul>
+
+blah
+
+
+
+
+
+
 
 <!--
 <h1 class="post-title"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</h1>
