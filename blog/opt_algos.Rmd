@@ -1,0 +1,19 @@
+---
+title: "**Some basic optimization algorithms in Python**"
+author: "[Iain Carmichael](https://idc9.github.io/)"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: cosmo
+---
+
+After taking a convex optimization class this past semester I implemented a few basic algorithms for unconstrained optimization in Python: [**https://github.com/idc9/optimization_algos**](https://github.com/idc9/optimization_algos). 
+
+The purpose of this repo is for me to learn and to have bare bones implementations of these algorithms sitting around. I tried to make the code modular and simple as possible so that you (or a future me) can modify it for other purposes (e.g. add bells and whistles, implement other algorithms, etc). Right now the repo focuses on first order methods (GD, SGD, accelerated GD, etc) for [empirical risk minimization](http://www.cs.cornell.edu/courses/cs4780/2015fa/web/lecturenotes/lecturenote10.html) problems.
+ While off the shelf solvers such as [sklean](http://scikit-learn.org/stable/) or [cvxopt](http://cvxopt.org/) are preferable for many applications there are times when you want full control over the solver.
+
+
+
+---
+
+For other blog posts see here. This post was last updated on `r Sys.time()` Eastern Time. 
