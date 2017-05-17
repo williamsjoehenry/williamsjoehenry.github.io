@@ -20,7 +20,3 @@ A few more interesting references:
 
 - [Nesterov's Accelerated Gradient Descent for Smooth and Strongly Convex Optimization](https://blogs.princeton.edu/imabandit/2014/03/06/nesterovs-accelerated-gradient-descent-for-smooth-and-strongly-convex-optimization/)
 - [Why Momentum Really Works](http://distill.pub/2017/momentum/)
-
----
-
-*For more blog posts [see here](https://idc9.github.io/blog.html). This post was last updated on `r Sys.time()` Eastern Time.*
