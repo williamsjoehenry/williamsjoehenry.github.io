@@ -1,10 +1,10 @@
 ---
-title: "**My favorite resources**"
-author: "[Iain Carmichael](https://idc9.github.io/)"
-output:
-  html_document:
-    theme: cosmo
+layout: post
+title:  "My favorite resources"
+date:   2017-05-17
+categories: resources
 ---
+
 
 One of the most underrated parts of modern stats/machine learning is that many of the best resources are available online for free from textbooks to MOOCs to code snippets. Like many people in the area I've used these resources to teach myself a lot of what I know. Here is a google doc with some of my favorite resources:
 
@@ -18,8 +18,3 @@ Most of these are available for free online (ok you can actually find all of the
 - [Chris Albon's website](https://chrisalbon.com/) has lot's of helpful code snippets (particularly for pandas)
 - [Metacademy](https://metacademy.org/browse) has road-maps to learn many concepts in statistics, math, cs, etc
 - [Deep Learning](http://www.deeplearningbook.org/) is an excellent overview of deep learning (and useful perspective on ML in general)
-
-
----
-
-*For more blog posts [see here](https://idc9.github.io/blog.html). This post was last updated on `r Sys.time()` Eastern Time.*

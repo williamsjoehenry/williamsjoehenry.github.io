@@ -3,15 +3,16 @@ layout: default
 title: Iain Carmichael | Blog
 ---
 <h3>Blog posts</h3>
-<ul>
+
+<!--<ul>
     <li> <a href="blog/opt_algos.html">Some basic optimization algorithms for ERM in Python</a>  </li>
     <li> <a href="blog/stat_resources.html">My favorite resources</a>  </li>
     <li> <a href="http://unsupervisedstatistics.web.unc.edu/">old posts</a> </li>
-</ul>
+</ul> -->
 
 
 <ul class="posts">
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:1 %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
