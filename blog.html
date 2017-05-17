@@ -15,7 +15,14 @@ title: Iain Carmichael | Blog
 -->
 
 <ul class="posts">
-  {% for post in site.posts limit:15 %}
+  {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></li>
+  {% endfor %}
+</ul>
+
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <h2><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">{{ post.title }}</a>{% if post.link %}<span class="link-arrow"> &rarr;</span>{% endif %}</a></h2>
   {% endfor %}
 </ul>
