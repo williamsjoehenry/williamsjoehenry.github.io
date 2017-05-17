@@ -16,4 +16,4 @@ The purpose of this repo is for me to learn and to have bare bones implementatio
 
 ---
 
-For other blog posts see here. This post was last updated on `r Sys.time()` Eastern Time. 
+For other blog posts [see here](https://idc9.github.io/blog.html). This post was last updated on `r Sys.time()` Eastern Time. 
