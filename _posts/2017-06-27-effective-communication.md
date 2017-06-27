@@ -16,4 +16,5 @@ and discusses some examples of how they apply to various examples in data scienc
 
 Communications skills are important at all levels of technical pursuits from [releasing a software package](http://r-pkgs.had.co.nz/vignettes.html) to conducting [research](http://distill.pub/2017/research-debt/), however, they are under emphasized in STEM education. These notes are from an undergraduate [Introduction to Data Science](https://idc9.github.io/stor390/) course I taught last semester and are my best attempt to incorporate communication into the curriculum. Any feedback that might improve this lecture (or help me become a better communicator) is welcome!
 
+---
 [^1]: The first three of these are from [Trees, Maps and Theorems](http://www.treesmapsandtheorems.com/).
