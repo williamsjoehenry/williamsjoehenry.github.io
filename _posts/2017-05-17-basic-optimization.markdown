@@ -5,7 +5,7 @@ date:   2017-05-17
 categories: optimization
 ---
 
-After taking a convex optimization class this past semester I implemented a few basic algorithms for unconstrained optimization (e.g. [Nesterov's accelerated gradient descent](https://github.com/idc9/optimization_algos/blob/master/opt_algos/accelerated_gradient_descent.py)) in Python (see this repo [**https://github.com/idc9/optimization_algos**](https://github.com/idc9/optimization_algos)).
+After taking a convex optimization class this past semester I implemented a few basic algorithms for unconstrained optimization (e.g. [Nesterov's accelerated gradient descent](https://github.com/idc9/optimization_algos/blob/master/opt_algos/accelerated_gradient_descent.py)) in Python in this repo: [**https://github.com/idc9/optimization_algos**](https://github.com/idc9/optimization_algos).
 
 The purpose of this repo is for me to learn and to have bare bones implementations of these algorithms sitting around. I tried to make the code modular and simple as possible so that you (or a future me) can modify it for other purposes (e.g. add bells and whistles, implement other algorithms, etc). While off the shelf solvers such as [sklean](http://scikit-learn.org/stable/) or [cvxopt](http://cvxopt.org/) are preferable for many applications there are times when you want full control over the solver.
 
