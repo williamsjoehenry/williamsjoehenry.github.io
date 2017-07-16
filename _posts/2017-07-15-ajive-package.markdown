@@ -49,12 +49,12 @@ These resources are helpful for creating R/Python packages:
 These resources helped me become a better programmer:
 
 - [Good Enough Practices in Scientific Computing](https://arxiv.org/pdf/1609.00037.pdf)
-- Reading/borrowing from existing, quality bases including. I found the following helpful
-	- R: [ggplot2](https://github.com/tidyverse/ggplot2), [tidytext](https://github.com/juliasilge/tidytext). 
-	- Python: [sklearn](https://github.com/scikit-learn/scikit-learn), [lightning](https://github.com/scikit-learn-contrib/lightning).
 - [Some principles of good programming](http://www.artima.com/weblogs/viewpost.jsp?thread=331531)
 - Jeff Leek’s book on [How to be a Modern Scientist](https://leanpub.com/modernscientist) and an uncountable number of [simplystatistics](https://simplystatistics.org/) posts.
 - Unit testing made the packages a lot less buggy ([testthat](http://r-pkgs.had.co.nz/tests.html) for R and [unittest](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_testing.pdf) for Python).
+- Reading/borrowing from existing, quality bases including. I found the following helpful:
+	- R: [ggplot2](https://github.com/tidyverse/ggplot2), [tidytext](https://github.com/juliasilge/tidytext). 
+	- Python: [sklearn](https://github.com/scikit-learn/scikit-learn), [lightning](https://github.com/scikit-learn-contrib/lightning).
 
 ---
 [^1]: For example, some [statistics postdoc](http://jtleek.com/jobs/) positions require (or highly encourage) applicants to have released an open source package.
