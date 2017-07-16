@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Teaching Communication in Data Science"
+title:  "Communication in Data Science"
 date:   2017-06-27
 categories: communication
 ---
