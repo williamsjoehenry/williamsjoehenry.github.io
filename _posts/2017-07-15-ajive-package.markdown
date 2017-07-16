@@ -18,4 +18,4 @@ Both packages are currently a little rough (need more examples, more testing, cl
 
 It feels wrong putting something out there that is not yet polished, but I figured it’s better to get something that works out there and improve it than to spend the rest of the summer perfecting it instead of writing my thesis (i.e. *don’t let the perfect be the enemy of the good*).
 
-I learned a lot from building these packages. [This next post](/ajive-lessons.html) has some thoughts and advice about releasing software packages -- particularly for other graduate students. I will (hopefully soon) put up a few posts discussing how AJIVE works and showing some data analysis examples.
+I learned a lot from building these packages. [This next post](/software/2017/07/15/ajive-lessons.html) has some thoughts and advice about releasing software packages -- particularly for other graduate students. I will (hopefully soon) put up a few posts discussing how AJIVE works and showing some data analysis examples.

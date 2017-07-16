@@ -5,7 +5,7 @@ date:   2017-07-15
 categories: software
 ---
 
-[I recently released](/ajive-package.html) my first R and Python packages. This post contains some thoughts and advice about releasing software packages – particularly for other graduate students.
+[I recently released](/software/2017/07/15/ajive-package.html) my first [R](https://github.com/idc9/r_jive) and [Python](https://github.com/idc9/py_jive) packages. This post contains some thoughts and advice about releasing software packages – particularly for other graduate students.
 
 First, there are some tradeoffs to consider:
 
