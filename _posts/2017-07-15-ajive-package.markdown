@@ -22,7 +22,7 @@ I learned a lot from building these packages. Below are some thoughts and advice
 
 # What I learned
 
-There are some tradeoffs to consider:
+First, there are some tradeoffs to consider:
 
 - Academia does not seem to value software very much.
 - There is a large time cost to develop software packages that could have been spent writing papers.
