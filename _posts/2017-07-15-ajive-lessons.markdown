@@ -20,18 +20,19 @@ I think academia is starting to value software more than it used to[^1]. I would
 - Software skills are highly valued in industry.
 - You might learn new things out of necessity (e.g. computational linear algebra) and/or better understand your own research.
 
+# Resources
 
 Programming is typically a small part of the statistics curriculum (and most other scientific disciplines); we don’t think of ourselves as software engineers even though many of us spend a lot of time writing code. Luckily there are many quality, open-source resources that show you how to write better code and release software. Without these resources (particularly the  [R Packages](http://r-pkgs.had.co.nz/) book) it would have taken me 1-2 orders of magnitude more time to build these packages[^2].
 
 
-These resources are helpful for creating R/Python packages:
+These resources are helpful for **creating R/Python packages**:
 
 - Hadley Wickham’s [R Packages](http://r-pkgs.had.co.nz/)  book and [devtools](https://github.com/hadley/devtools) were incredibly helpful. If you plan on building an R package read this book.
 - [This tutorial](http://python-packaging.readthedocs.io/en/latest/index.html) and [coockiecutter](https://github.com/audreyr/cookiecutter) give helpful templates and instructions to create a Python package.
 - Tim Hopper’s [talk on releasing code](https://www.youtube.com/watch?v=uRul8QdYvqQ) gives a good high level overview of how/why to release code.
 - [github](github.com)
 
-These resources helped me become a better programmer:
+These resources helped me become a **better programmer**:
 
 - [Good Enough Practices in Scientific Computing](https://arxiv.org/pdf/1609.00037.pdf)
 - [Some principles of good programming](http://www.artima.com/weblogs/viewpost.jsp?thread=331531)
