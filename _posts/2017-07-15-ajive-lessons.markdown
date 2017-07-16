@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Releasing Software Packages"
+title:  "Releasing software packages"
 date:   2017-07-15
 categories: software
 ---
