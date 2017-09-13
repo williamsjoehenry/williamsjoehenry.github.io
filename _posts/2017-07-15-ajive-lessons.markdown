@@ -7,10 +7,15 @@ categories: software
 
 [I recently released](/software/2017/07/15/ajive-package.html) my first [R](https://github.com/idc9/r_jive) and [Python](https://github.com/idc9/py_jive) packages. This post contains some thoughts and advice about releasing software packages – particularly for other graduate students.
 
-First, there are some tradeoffs to consider:
+The question of "should you release a package?" is highly context dependent (e.g. if you are a probabilist the answer is probably no). There are a number of tradeoffs to consider. For example, academia does not seem to value software very much. More importantly, there is a large time cost cost to develop software packages that could have been spent writing papers, this includes: 
 
-- Academia does not seem to value software very much.
-- There is a large time cost to develop software packages that could have been spent writing papers.
+- Coding the basic functionality
+- Turning your code into a package someone else can download and use
+- Documentation for the code
+- Providing data analysis examples
+- Maintaining and updating the package
+- Responding to user feedback
+- Surveying the existing literature to make sure your package provides new functionality
 
 I think academia is starting to value software more than it used to[^1]. I would argue that, in many cases, releasing code is as important as writing a paper. Some of the benefits to you that come from releasing a software package include:
 
@@ -30,7 +35,7 @@ These resources are helpful for **creating R/Python packages**:
 - Hadley Wickham’s [R Packages](http://r-pkgs.had.co.nz/)  book and [devtools](https://github.com/hadley/devtools) were incredibly helpful. If you plan on building an R package read this book.
 - [This tutorial](http://python-packaging.readthedocs.io/en/latest/index.html) and [coockiecutter](https://github.com/audreyr/cookiecutter) give helpful templates and instructions to create a Python package.
 - Tim Hopper’s [talk on releasing code](https://www.youtube.com/watch?v=uRul8QdYvqQ) gives a good high level overview of how/why to release code.
-- [github](github.com)
+- Hosting the package on [github](github.com) gives you a lot of functionality for free (e.g. users can submit feedback via github issues)
 
 These resources helped me become a **better programmer**:
 
