@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Word embedding tutorial in python"
-date:   2017-06-27
+date:   2017-10-09
 categories: nlp
 ---
 
