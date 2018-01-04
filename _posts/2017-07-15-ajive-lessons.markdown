@@ -32,8 +32,8 @@ Programming is typically a small part of the statistics curriculum (and most oth
 
 These resources are helpful for **creating R/Python packages**:
 
-- Hadley Wickham’s [R Packages](http://r-pkgs.had.co.nz/)  book and [devtools](https://github.com/hadley/devtools) were incredibly helpful. If you plan on building an R package read this book.
-- [This tutorial](http://python-packaging.readthedocs.io/en/latest/index.html) and [coockiecutter](https://github.com/audreyr/cookiecutter) give helpful templates and instructions to create a Python package.
+- Hadley Wickham’s [**R Packages book**](http://r-pkgs.had.co.nz/) and [devtools](https://github.com/hadley/devtools) were incredibly helpful. If you plan on building an R package read this book.
+- [**This tutorial on a minimal Python package**](http://python-packaging.readthedocs.io/en/latest/index.html) and [coockiecutter](https://github.com/audreyr/cookiecutter) give helpful templates and instructions to create a Python package.
 - Tim Hopper’s [talk on releasing code](https://www.youtube.com/watch?v=uRul8QdYvqQ) gives a good high level overview of how/why to release code.
 - Hosting the package on [github](github.com) gives you a lot of functionality for free (e.g. users can submit feedback via github issues)
 
