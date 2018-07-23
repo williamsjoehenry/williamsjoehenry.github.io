@@ -7,7 +7,7 @@ categories: software
 
 [I recently released](/software/2017/07/15/ajive-package.html) my first [R](https://github.com/idc9/r_jive) and [Python](https://github.com/idc9/py_jive) packages. This post contains some thoughts and advice about releasing software packages – particularly for other graduate students.
 
-The question of "should you release a package?" is highly context dependent (e.g. if you are a probabilist the answer is probably no). There are a number of tradeoffs to consider. For example, academia does not seem to value software very much. More importantly, there is a large time cost cost to develop software packages that could have been spent writing papers, this includes: 
+The question of "should you release a package?" is highly context dependent (e.g. if you are a probabilist the answer is probably no). There are a number of trade-offs to consider. For example, academia does not seem to value software very much. More importantly, there is a large time cost cost to develop software packages that could have been spent writing papers, this includes:
 
 - Coding the basic functionality
 - Turning your code into a package someone else can download and use
@@ -44,7 +44,7 @@ These resources helped me become a **better programmer**:
 - Jeff Leek’s book on [How to be a Modern Scientist](https://leanpub.com/modernscientist) and an uncountable number of [simplystatistics](https://simplystatistics.org/) posts.
 - Unit testing made the packages a lot less buggy ([testthat](http://r-pkgs.had.co.nz/tests.html) for R and [unittest](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_testing.pdf) for Python).
 - Reading/borrowing from existing, quality bases including. I found the following helpful:
-	- R: [ggplot2](https://github.com/tidyverse/ggplot2), [tidytext](https://github.com/juliasilge/tidytext). 
+	- R: [ggplot2](https://github.com/tidyverse/ggplot2), [tidytext](https://github.com/juliasilge/tidytext).
 	- Python: [sklearn](https://github.com/scikit-learn/scikit-learn), [lightning](https://github.com/scikit-learn-contrib/lightning).
 
 ---
